@@ -1,0 +1,39 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: true
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "Дезинфекция, дератизация, дезинсекция"
+description: "Борьба с грызунами и насекомыми - мыши, крысы, тараканы, мухи, комары... На рынке с 1998 года. Индивидуальный подход"
+keywords: "Услуги обработки от домашних клопов, уничтожение тараканов, борьба с мышами, уничтожение грызунов, дератизация помещений, дезинфекция, дезинсекция, дератизация, Петропавловск, СКО, уничтожение тараканов, уничтожение крыс, уничтожение мышей, уничтожение клопов, борьба с грызунами"
+
+favicon:     "img/favicon.ico"
+touch_icon:  "img/logo-rvb-icon.png"
+google_analytics_key: # UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+yellow: "#fefc13"
+
+kramdown:
+  auto_ids:  false
+
